@@ -1,3 +1,12 @@
+# Basic Instructions 
+Below you will find some information on how to perform common tasks.
+
+# Fork the project onto your repo 
+
+# Open the project on your editor 
+
+# Replace the Mock State with the commented one and add the API Endpoint in App.js 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

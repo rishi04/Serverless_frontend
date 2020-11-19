@@ -5,7 +5,7 @@ import {faThumbsDown, faThumbsUp , faImage, faMoneyCheckAlt, } from '@fortawesom
 
 
 class App extends Component{
-    // dummy state for frontend  
+    // Mock state for frontend  
     state = {
         isLoading: false,
         invoices : [
@@ -43,9 +43,9 @@ class App extends Component{
        let updatedInvoices = [...this.state.invoices].filter(i => i.id !== id) 
        this.setState({invoices : updatedInvoices});
     }
-
+    // Replace with endpoint here 
     async componentDidMount(){
-        const response = await fetch('AWS API Gateway EndPoint');
+        const response = await fetch(' Add your Api endpoint here.');
         const body = await response.json();
         this.setState({invoices : body, isLoading : false})
 
